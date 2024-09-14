@@ -14,7 +14,7 @@ func main() {
 
 	fmt.Println("Enter the rating for our Pizza: ")
 
-	// Comma Ok syntax || err ok syntax
+	// Comma err syntax || ok err syntax
 
 	input, _ := reader.ReadString('\n')
 
