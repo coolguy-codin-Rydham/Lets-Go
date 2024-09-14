@@ -1,0 +1,24 @@
+use go env
+and look at the GOOS parameter
+
+this parameter is used to set the operating system
+
+if you want to run the code in windows
+then you need to set the GOOS parameter to windows
+
+and let's say you wanna build the code for linux
+run the following command
+
+GOOS=linux go build
+
+this will create a binary file that can be run on linux
+
+if you want to run the code in windows
+then you need to set the GOOS parameter to windows
+
+GOOS=windows go build
+
+and let's say you wanna build the code for linux
+run the following command
+
+GOOS=linux go build
