@@ -17,8 +17,3 @@ if you want to run the code in windows
 then you need to set the GOOS parameter to windows
 
 GOOS=windows go build
-
-and let's say you wanna build the code for linux
-run the following command
-
-GOOS=linux go build
