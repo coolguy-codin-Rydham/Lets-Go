@@ -1,25 +1,25 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	fmt.Print("Maps in Golang\n")
+// func main() {
+// 	fmt.Print("Maps in Golang\n")
 
-	languages := make(map[string]string)
+// 	languages := make(map[string]string)
 
-	languages["JS"] = "Javascript"
-	languages["RB"] = "Ruby"
-	languages["PY"] = "Python"
+// 	languages["JS"] = "Javascript"
+// 	languages["RB"] = "Ruby"
+// 	languages["PY"] = "Python"
 
-	fmt.Print("Js is short for ", languages["JS"], "\n")
+// 	fmt.Print("Js is short for ", languages["JS"], "\n")
 
-	// delete(languages, "RB")
-	fmt.Print(languages, "\n")
+// 	// delete(languages, "RB")
+// 	fmt.Print(languages, "\n")
 
-	//Loops
+// 	//Loops
 
-	for key, value := range languages {
-		fmt.Printf("for key %v, value is %v\n", key, value)
-	}
+// 	for key, value := range languages {
+// 		fmt.Printf("for key %v, value is %v\n", key, value)
+// 	}
 
-}
+// }
